@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+    compile group: "org.robotframework", name: "robotframework", version: "2.9.2"
+    compile group: "org.apache.commons", name: "commons-text",   version: "1.2" // Escape / Unescape
+    compile group: "commons-cli",        name: "commons-cli",    version: "1.4"  // CLI arguments/options parsing
+
+    compile group: "com.fasterxml.jackson.core", name: "jackson-core",     version: "2.9.4"
+    compile group: "com.fasterxml.jackson.core", name: "jackson-databind", version: "2.9.4"
+
+//    compile 'org.slf4j:slf4j-api:1.7.22'
+//    testCompile 'junit:junit:4.12'
+}

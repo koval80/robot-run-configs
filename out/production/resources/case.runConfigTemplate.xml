@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="___NAME___" type="GradleRunConfiguration" factoryName="Gradle" folderName="___FOLDER_NAME___">
+        <ExternalSystemSettings>
+            <option name="executionName" />
+            <option name="externalProjectPath" value="$PROJECT_DIR$/integrationTests" />
+            <option name="externalSystemIdString" value="GRADLE" />
+            <option name="scriptParameters" value="-Probot.test=&quot;___TEST_CASE___&quot; -Probot.port=8989" />
+            <option name="taskDescriptions">
+                <list />
+            </option>
+            <option name="taskNames">
+                <list>
+                    <option value="runRobotTests" />
+                </list>
+            </option>
+            <option name="vmOptions" value="" />
+        </ExternalSystemSettings>
+        <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+        <method />
+    </configuration>
+</component>
